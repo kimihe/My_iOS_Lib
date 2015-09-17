@@ -28,7 +28,7 @@
     //label
     self->result = [UILabel new];
     self->result.frame = CGRectMake(100, 100, 175, 35);
-    self->result.backgroundColor = RGB(200, 200, 200);
+    self->result.backgroundColor = RGB(250, 200, 200);
     self->result.text = @"结果反馈";
     
     [self.view addSubview:self->result];
