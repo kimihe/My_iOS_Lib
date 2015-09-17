@@ -36,7 +36,7 @@
     //textFiled
     self->text = [UITextField new];
     self->text.frame = CGRectMake(100, 150, 175, 35);
-    self->text.backgroundColor = RGB(150, 150, 150);
+    self->text.backgroundColor = RGB(200, 200, 200);
     self->text.keyboardType = UIKeyboardTypeDecimalPad;
     self->text.placeholder = @"请在这里输入小数";
     
